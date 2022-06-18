@@ -1,6 +1,6 @@
 # PDI
 
-<h4> **Repositório para apresentar os seguintes filtros de imagem e os resultados:
+<h4> **Repositório para apresentar os seguintes filtros de imagem e os resultados:**
 1.	Filtro de Média
 2.	Filtro de Mediana
 3.	Filtro de Moda
@@ -19,8 +19,9 @@
 16.	Normalizar duas imagens filtradas
 
 
-<h4>**1. Filtro de Média
+<h4>**1. Filtro de Média**
 Este filtro...
 
 Imagem após aplicação do filtro:
+  
 (![image](https://user-images.githubusercontent.com/54648687/174414537-9f6f771f-4fdb-4617-bb68-22da56591038.png))
