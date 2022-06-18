@@ -2,7 +2,7 @@ import cv2
 import numpy as np  
 
 img = cv2.imread('chile.jpg', 0) 
-m, n = img_noisy1.shape 
+m, n = img.shape 
    
 img_new = np.zeros([m, n]) 
   
