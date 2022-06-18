@@ -142,4 +142,22 @@ Imagem após aplicação do filtro:
 
 Este filtro...
 
-Imagem após aplicação do filtro:
+Imagem original / Imagem normalizada:
+
+![image](https://user-images.githubusercontent.com/54648687/174457595-7343ad7e-0af5-4941-8684-226ef769b503.png)
+![image](https://user-images.githubusercontent.com/54648687/174457515-12367f7a-d853-4882-9044-8c91446ac2b9.png)
+
+
+Imagem com filtro Sobel / Imagem normalizada após a aplicação do filtro Sobel:
+
+![image](https://user-images.githubusercontent.com/54648687/174457602-fd88da6b-ac0b-4776-9e63-c8f9d893d5db.png)
+![image](https://user-images.githubusercontent.com/54648687/174457525-311da95f-8cc2-4372-84b5-2f7ec46413e4.png)
+
+
+Imagem com filtro Negativo / Imagem normalizada após a aplicação do filtro Negativo:
+![image](https://user-images.githubusercontent.com/54648687/174457615-3ad2562d-6ab6-4462-a7a5-4a90964350c6.png)![image](https://user-images.githubusercontent.com/54648687/174457623-be907206-1be3-4444-9be8-5b3562b4b019.png)
+
+
+
+
+
