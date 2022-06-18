@@ -10,7 +10,8 @@
 
 #### 1. Filtro de Média
 
-Este filtro...
+Esse filtro é do grupo passa baixas e é um filtro linear. Substitui cada pixel pela média aritmética dos pixels
+da vizinhança. Pode ter diversos tamanhos de máscaras.
 
 Imagem após aplicação do filtro:
   
@@ -19,7 +20,8 @@ Imagem após aplicação do filtro:
 
 #### 2. Filtro de Mediana
 
-Este filtro...
+Este filtro também é do grupo passa baixas, porém, é um filtro não lienar. Substitui a intensidade de cada pixel
+pela mediana das intensidades na vizinhança do pixel. Também pode ter diversos tamanhos de máscaras.
 
 Imagem após aplicação do filtro:
 
@@ -27,13 +29,14 @@ Imagem após aplicação do filtro:
 
 #### 3. Filtro de Moda
 
-Este filtro...
+Este filtro também é do grupo passa baixas e não linear. Seleciona o valor que ocorre com
+maior frequência na vizinhança para substituir o valor do pixel central.
 
 Imagem após aplicação do filtro:
 
 #### 4.	Filtro de Robert 
 
-Este filtro...
+Este filtro possui a fórmula mais simples na detecção de bordas, mas tem uma grande desvantagem, na diferença de realce em algumas bordas da imagem, relacionado aos pontos de cinza. É não linear.
 
 Imagem após aplicação do filtro:
 
@@ -42,7 +45,7 @@ Imagem após aplicação do filtro:
 
 #### 5.	Filtro de Sobel
 
-Este filtro...
+Este filtro detecta bordas horizontais e verticais separadamente em uma imagem em escalas-de-cinza. As cores da imagem são transformadas de RGB para escalas-de-cinza. O resultado é uma imagem transparente com linhas pretas e alguns restos de cores.
 
 Imagem após aplicação do filtro:
 
@@ -51,7 +54,7 @@ Imagem após aplicação do filtro:
 
 #### 6.	Filtro Negativo
 
-Este filtro...
+Este filtro subtrai de cada pixel -255, o que dá a exata cor "oposta" a original do pixel, assim gerando a imagem negativa.
 
 Imagem após aplicação do filtro:
 
@@ -60,7 +63,7 @@ Imagem após aplicação do filtro:
 
 #### 7. Filtro Gaussiano
 
-Este filtro...
+Este filtro é um filtro passa-baixo usado para reduzir o ruído (componentes de alta frequência) e borrar as regiões de uma imagem, ou ela por completo.
 
 Imagem após aplicação do filtro:
 
@@ -69,7 +72,7 @@ Imagem após aplicação do filtro:
 
 #### 8.	Filtro Laplace
 
-Este filtro...
+Este filtro não exige processamento individual horizontal e vertical, é linear e é um filtro que implementa uma derivada de segunda ordem da imagem, dessa forma detectando regiões de alta variação de cor, ou seja, bordas. É comumente utilizado em combinação com o filtro Gaussiano.
 
 Imagem após aplicação do filtro:
 
@@ -79,7 +82,7 @@ Imagem após aplicação do filtro:
 
 #### 9.	Filtro Prewitt
 
-Este filtro...
+Este filtro também é um detector de borda. Tem o mesmo conceito do de Sobel (sem o peso para o pixel mais central) e de Roberts (sua máscara abrange uma área de 3 x 3)
 
 Imagem após aplicação do filtro:
 
@@ -88,7 +91,7 @@ Imagem após aplicação do filtro:
 
 #### 10.	Filtro Binário
 
-Este filtro...
+Este filtro altera toda a imagem para tons preto e branco conforme o valor de corte escolhido sendo determinado, em ambos os casos, pela tonalidade do objeto em estudo tornando possível separar na imagem duas classes: objeto e fundo.
 
 Imagem após aplicação do filtro:
 
@@ -97,7 +100,7 @@ Imagem após aplicação do filtro:
 
 #### 11.	Filtro Binário Invertido
 
-Este filtro...
+Este filtro funciona exatamente igual ao Filtro Binário, apenas invertendo na imagem o que é branco, por preto e vice-versa.
 
 Imagem após aplicação do filtro:
 
@@ -105,7 +108,7 @@ Imagem após aplicação do filtro:
 
 #### 12.	Filtro de Trunc
 
-Este filtro...
+Nste filtro o pixel de destino é definido para o limite (thresh), se o valor do pixel de origem for maior que o limite. Caso contrário, é definido para o valor do pixel de origem. O maxValue é ignorado
 
 Imagem após aplicação do filtro:
 
@@ -114,7 +117,7 @@ Imagem após aplicação do filtro:
 
 #### 13.	Filtro de Tozero
 
-Este filtro...
+Neste filtro O valor do pixel de destino é definido como o valor do pixel da origem correspondente , se o valor do pixel de origem for maior que o limite. Caso contrário, é definido como zero.
 
 Imagem após aplicação do filtro:
 
@@ -122,7 +125,7 @@ Imagem após aplicação do filtro:
 
 #### 14.	Filtro de Tozero Invertido
 
-Este filtro...
+Neste filtro O valor do pixel de destino é definido como zero, se o valor do pixel de origem for maior que o limite. Caso contrário, é definido para o valor do pixel de origem.
 
 Imagem após aplicação do filtro:
 
@@ -131,7 +134,7 @@ Imagem após aplicação do filtro:
 
 #### 15.	Filtro Sharpen
 
-Este filtro...
+Este filtro aguça as bordas dos elementos sem aumentar o ruído ou defeito. É o um dos melhores filtros de nitidez.
 
 Imagem após aplicação do filtro:
 
@@ -140,7 +143,7 @@ Imagem após aplicação do filtro:
 
 #### 16.	Normalizar duas imagens filtradas
 
-Este filtro...
+Normalizar as imagens significa transformá-las em valores tais que a média e o desvio padrão da imagem se tornem 0,0 e 1,0, respectivamente. Para fazer isso, primeiro a média do canal é subtraída de cada canal de entrada e, em seguida, o resultado é dividido pelo desvio padrão do canal.
 
 Imagem original / Imagem normalizada:
 
