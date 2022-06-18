@@ -19,8 +19,8 @@ Repositório para apresentar os seguintes filtros de imagem e os resultados:
 16.	Normalizar duas imagens filtradas
 
 
-*1. Filtro de Média*
+<h1>1. Filtro de Média<h1>
 Este filtro...
 
 Imagem após aplicação do filtro:
-(https://github.com/tshelena/PDI/blob/main/filtroMedia.jpg?raw=true)
+(![image](https://user-images.githubusercontent.com/54648687/174414537-9f6f771f-4fdb-4617-bb68-22da56591038.png))
