@@ -142,4 +142,19 @@ Imagem após aplicação do filtro:
 
 Este filtro...
 
-Imagem após aplicação do filtro:
+Imagem original normalizada:
+
+![image](https://user-images.githubusercontent.com/54648687/174457515-12367f7a-d853-4882-9044-8c91446ac2b9.png)
+
+
+Imagem normalizada após a aplicação do filtro Sobel:
+
+![image](https://user-images.githubusercontent.com/54648687/174457525-311da95f-8cc2-4372-84b5-2f7ec46413e4.png)
+
+
+Imagem normalizada após a aplicação do filtro Negativo:
+
+![image](https://user-images.githubusercontent.com/54648687/174457532-d4136f62-3df0-4913-836a-63be005b37d8.png)
+
+
+
