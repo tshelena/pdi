@@ -1,4 +1,3 @@
-import cv2 
 from PIL import Image, ImageFilter    
 
 image = Image.open('chile.jpg')
