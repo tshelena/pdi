@@ -3,6 +3,7 @@
 Repositório para apresentar alguns filtros de imagem em Python e o resultado após aplicação.
 
 1. Filtro de Média
+
 Este filtro...
 
 Imagem após aplicação do filtro:
