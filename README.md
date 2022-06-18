@@ -1,6 +1,12 @@
 # PDI
 
-Repositório para apresentar alguns filtros de imagem em Python e o resultado após aplicação.
+### Aplicando filtros de imagem.
+
+#### Imagem Original:
+
+![image](https://user-images.githubusercontent.com/54648687/174456652-195f48c5-fbf8-4a44-9458-dbea2e5f3cc3.png)
+
+
 
 #### 1. Filtro de Média
 
