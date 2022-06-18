@@ -124,6 +124,8 @@ Este filtro...
 
 Imagem após aplicação do filtro:
 
+![image](https://user-images.githubusercontent.com/54648687/174442644-891f96fc-1271-4598-b847-c93f50ff8128.png)
+
 
 #### 16.	Normalizar duas imagens filtradas
 
