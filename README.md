@@ -15,6 +15,7 @@ Imagem após aplicação do filtro:
 Este filtro...
 
 Imagem após aplicação do filtro:
+
 ![image](https://user-images.githubusercontent.com/54648687/174414840-bae83b0b-4bf9-42a7-a1d9-283ffa3b8847.png)
 
 3. Filtro de Moda
