@@ -1,6 +1,12 @@
 # PDI
 
-Repositório para apresentar alguns filtros de imagem em Python e o resultado após aplicação.
+### Aplicando filtros de imagem.
+
+#### Imagem Original:
+
+![image](https://user-images.githubusercontent.com/54648687/174456652-195f48c5-fbf8-4a44-9458-dbea2e5f3cc3.png)
+
+
 
 #### 1. Filtro de Média
 
@@ -30,6 +36,8 @@ Imagem após aplicação do filtro:
 Este filtro...
 
 Imagem após aplicação do filtro:
+
+![image](https://user-images.githubusercontent.com/54648687/174456522-7ac2c2f5-1f4e-4a76-8628-b6ca598bdfc5.png)
 
 
 #### 5.	Filtro de Sobel
@@ -74,6 +82,9 @@ Imagem após aplicação do filtro:
 Este filtro...
 
 Imagem após aplicação do filtro:
+
+![image](https://user-images.githubusercontent.com/54648687/174456513-1b76e7b6-a1c2-4e65-b757-4514e56d9393.png)
+
 
 #### 10.	Filtro Binário
 
