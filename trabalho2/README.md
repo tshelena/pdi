@@ -20,7 +20,7 @@ Imagem após aplicação do filtro:
 
 #### 2. Filtro de Mediana
 
-Este filtro também é do grupo passa baixas, porém, é um filtro não lienar. Substitui a intensidade de cada pixel
+Este filtro também é do grupo passa baixas, porém, é um filtro não linear. Substitui a intensidade de cada pixel
 pela mediana das intensidades na vizinhança do pixel. Também pode ter diversos tamanhos de máscaras.
 
 Imagem após aplicação do filtro:
