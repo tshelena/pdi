@@ -7,10 +7,10 @@ print (np.matrix(matriz))
 
 m, n = matriz.shape 
 
-mask = np.ones([3, 3], dtype = int) 
-mask = mask / 9
+# máscara laplace
+mask = np.array([[-1, -1, -1], [-1, 8, -1], [-1, -1, -1]]) 
    
-Y = np.zeros([m, n]) 
+Y = np.empty([m, n]) 
   
 for i in range(1, m-1): 
     for j in range(1, n-1): 
@@ -18,3 +18,4 @@ for i in range(1, m-1):
         Y[i, j]= temp 
 
 print (np.matrix(Y))
+
