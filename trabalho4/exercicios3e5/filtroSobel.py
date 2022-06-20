@@ -10,11 +10,5 @@ sobelY = cv2.Sobel(matriz, cv2.CV_64F, 0, 1)
 sobelX = np.uint8(np.absolute(sobelX))
 sobelY = np.uint8(np.absolute(sobelY))
 sobel = cv2.bitwise_or(sobelX, sobelY)
-resultado = np.vstack([np.hstack([matriz, sobelX]),np.hstack([sobelY, sobel])
-])
 
-
-
-print (np.matrix(resultado))
-print ("----------------------------------------------------")
 print (np.matrix(sobel))

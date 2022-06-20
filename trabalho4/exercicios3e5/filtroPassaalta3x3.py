@@ -7,10 +7,7 @@ matriz = matriz.astype(np.uint8)
 
 lap = cv2.Laplacian(matriz, cv2.CV_64F,(3,3))
 lap = np.uint8(np.absolute(lap))
-resultado = np.vstack([matriz, lap]) 
 
-print (np.matrix(resultado))
-print ("----------------------------------------------------")
 print (np.matrix(lap))
 # mask = np.array([[-1, -1, -1], [-1, 8, -1], [-1, -1, -1]]) 
 
