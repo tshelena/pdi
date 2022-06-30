@@ -6,8 +6,8 @@ print(array);
 #a
 negativos = 0
 
-for l in range(0, 5):
-    for c in range(0, 5):
+for l in range(0, 4):
+    for c in range(0, 4):
         if array[l][c] < 0:
             negativos = negativos +1
             

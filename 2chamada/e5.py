@@ -48,12 +48,19 @@ for l in range(0, 4):
 print ("\n A matriz transposta de D é:\n",transpD)
 
 #e 
-invA = np.linalg.inv(A)
-
-print("\n A matriz inversa de A é: \n". invA)
 
 #f
+
+#g
+invA = np.linalg.inv(A)
+
+print("\n A matriz inversa de A é: \n", invA)
+
+#h
 invD= np.linalg.inv(D)
 
-print("\n A matriz inversa de D é: \n". invD)
+print("\n A matriz inversa de D é: \n", invD)
+
+#i
+
 
